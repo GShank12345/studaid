@@ -1,0 +1,28 @@
+{
+   "name": "Student-Finaid-agent",
+   "version": "1.0.0",
+   "type": "module",
+   "devDependencies": {
+      "@types/crypto-js": "^4.2.2",
+      "@types/express": "^4.17.21",
+      "typescript": "^7.0.2"
+   },
+   "dependencies": {
+      "@aws-sdk/client-bedrock": "^3.1126.0",
+      "@modelcontextprotocol/sdk": "^1.30.0",
+      "@opentelemetry/api": "^1.9.1",
+      "@strands-agents/sdk": "^1.16.0",
+      "crypto-js": "^4.2.0",
+      "express": "^5.2.1",
+      "typescript": "^7.0.2",
+      "zod": "^4.5.4"
+   },
+   "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js",
+      "dev": "tsc && node dist/index.js"
+   },
+   "allowScripts": {
+      "node@26.7.0": true
+   }
+}

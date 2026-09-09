@@ -1,0 +1,44 @@
+[
+ {
+ "product": "College Tuition bill",
+  "Ac.No": "C12345",
+  "description":"College tution payment reminder",
+  "Date":"Every quarter starting from September 15th 2026.",
+  "Status": "Active"
+ },
+{
+ "product": "Club X activity",
+  "Ac.No": "CL12345",
+  "description":"Club X Activity",
+  "Date":"Every month starting from October 9th 2026.",
+  "Status": "Active"
+ },
+ {
+ "product": "Club X due T-shirt drive",
+  "Ac.No": "Z2345",
+  "description":"Club X T-shirt drive payment reminder.",
+  "Date":"Every month starting from October 2nd 2026",
+  "Status": "Inactive"
+  },
+  {
+ "product": "Club Y activity",
+  "Ac.No": "CLY2345",
+  "description":"Club Y Activity",
+  "Date":"Every week starting from October 12th 2026.",
+  "Status": "Active"
+ },
+ {
+ "product": "WiFi bill activity",
+  "Ac.No": "Wifi2345",
+  "description":"Wifi bill payment Activity",
+  "Date":"Every month starting from September 9th 2026.",
+  "Status": "Active"
+ },
+ {
+ "product": "Rent activity",
+  "Ac.No": "R12345",
+  "description":"Rent payment Reminder",
+  "Date":"Every month starting from September 3th 2026.",
+  "Status": "Active"
+ }
+]
