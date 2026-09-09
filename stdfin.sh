@@ -13,7 +13,7 @@ if ! pgrep -x "Docker" > /dev/null; then
 else
     echo "Docker is already open. Leaving it running."
 fi
-docker run --mount type=bind,source=/user/shared/temp,target=/app/data,readonly -d -p 8081:8081 studfin_image
+docker run --mount type=bind,source=./user/shared/temp,target=/app/data,readonly -d -p 8081:8081 studfin_image
 
 sleep 5
 echo "Invocation results are in the docker logs"
