@@ -10,7 +10,8 @@ Custom tool - fileViewer1, Vended tool - fileEditor
 Building the docker file - docker build -t studfin_image:latest . 
 Installs The application.
 
-Executing program
+Executing the script
+The script ./stdfin.sh first checks if the docker is closed or open. If closed it opens and sends a message 'waiting for the docker to open'. Once open, retrieves the json file from the mounted path (local file) and binds it to the docker path and runs the image inside the container and invokes the calls in the host 8081. The call invocations are sent to port is 8081. Once the data is transferred to the log file, the script runs commands to stop the container and then remove it.   
 
 Once installed run the script - ./stdfin.sh   
 
