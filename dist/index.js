@@ -25,7 +25,7 @@ console.log("date3===================", date3);
 const client = new BedrockClient({ region: REGION });
 const filenm = '/app/data/financeaid.json';
 const iv = CryptoJS.enc.Utf8.parse("");
-var awsurl = "https://2d6fcanvsxi2u656q5r4xiinfe0azoqk.lambda-url.us-east-1.on.aws/";
+var awsurl = "";
 const app = express();
 export const main = async () => {
     /************credentials */
